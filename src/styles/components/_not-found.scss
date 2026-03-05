@@ -1,0 +1,33 @@
+@use '../abstracts' as *;
+
+.not-found {
+
+  &__content {
+    text-align: center;
+    padding: 4rem 0;
+
+    h1 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__links {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+    a {
+      text-decoration: none;
+      transition: color 0.2s ease;
+      color: darken($color: $olive, $amount: 10%);
+
+      &:hover {
+        color: lighten($color: $olive, $amount: 10%);
+      }
+    }
+  }
+}

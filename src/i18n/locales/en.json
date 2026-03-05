@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Home",
+    "projects": "Projects",
+    "about": "About",
+    "contact": "Contact"
+  },
+
+  "home": {
+    "title": "Fullstack Developer",
+    "subtitle": "I build thoughtful, scalable web applications using modern technologies like React and TypeScript.",
+    "viewProjects": "View Projects",
+    "contact": "Contact Me"
+  },
+
+  "notFound": {
+    "title": "Oops!",
+    "text": "The page you're looking for doesn't seem to exist.",
+    "homelink": "← Go to homepage",
+    "projects": "View projects →"
+  },
+
+  "projectNotFound": {
+    "title": "Oops!",
+    "text": "The project you're looking for doesn't seem to exist.",
+    "projects": "← Back to projects",
+    "home": "Go to homepage →"
+  },
+
+  "about": {
+    "title": "About Me",
+    "greeting": "Hi, I’m Michelle.",
+    "photoAlt": "Portrait of Michelle Lee",
+
+    "intro1": "I’m a fullstack developer focused on building structured and maintainable web applications with clear separation between frontend and backend systems.",
+
+    "intro2": "I enjoy working with authentication flows, REST APIs, database integration, and responsive UI architecture. I value clarity in both code and design.",
+
+    "connect": "Connect",
+
+    "cv": {
+      "download": "Download resume"
+    },
+
+    "focus": {
+      "title": "Focus Areas",
+
+      "architecture": {
+        "title": "Fullstack Architecture",
+        "text": "Structured frontend and backend systems with clear separation of concerns and scalable project organization."
+      },
+
+      "auth": {
+        "title": "Authentication Systems",
+        "text": "JWT-based authentication, protected routes, and role-based authorization logic."
+      },
+
+      "api": {
+        "title": "API & Database Integration",
+        "text": "RESTful services, persistent relational storage, and modular backend routing."
+      },
+
+      "ui": {
+        "title": "UI & UX Design",
+        "text": "User-centered interfaces with clear visual hierarchy, intuitive interaction patterns, and responsive layouts across devices."
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Contact Me",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "emailPlaceholder": "Your email",
+    "messagePlaceholder": "Your message",
+    "send": "Send Message",
+    "success": "Message sent successfully!",
+    "error": "Something went wrong. Please try again."
+  },
+
+  "projects": {
+    "viewProject": "View Project",
+    "back": "← Back to Projects",
+    "about": "📝 About the Project",
+    "features": "✨ Key Features",
+    "role": "👩‍💻 My Role",
+    "workflow": "🤝 Team & Workflow",
+    "members": "👥 Team Members",
+    "screenshots": "📸 Screenshots",
+    "solo": "Solo Project",
+    "group": "Group Project",
+    "developers": "Developers",
+    "liveDemo": "Live Demo",
+    "github": "GitHub",
+    "groupProject": "Group Project | {{count}} Developers",
+    "soloProject": "Solo Project",
+
+    "bookmate": {
+      "shortDescription": "A fullstack web application for managing books and quotes with secure JWT-based authentication.",
+      "longDescription": "Bookmate is a fullstack web application built with Angular and ASP.NET Core Web API that allows users to organize books and save quotes in a personal collection. The application uses JWT-based authentication to securely manage user sessions and protect API routes. It demonstrates RESTful API integration, a structured client-server architecture, and full CRUD functionality for both books and quotes.",
+
+      "features": {
+        "auth": "User registration and login",
+        "jwt": "JWT-based authentication and protected API routes",
+        "crud": "CRUD functionality for books and quotes",
+        "api": "RESTful API integration",
+        "theme": "Light / Dark mode toggle",
+        "responsive": "Responsive design"
+      },
+
+      "screenshots": {
+        "login": "Login page with secure authentication.",
+        "booksDesktop": "'My Books' page allowing users to add, edit, and delete books.",
+        "booksMobile": "'My Books' page on mobile, fully responsive with complete CRUD functionality.",
+        "addQuote": "Form for adding new quotes to the user's collection.",
+        "themeToggle": "Light and dark mode toggle with smooth theme transition."
+      }
+    },
+
+    "freakyfashion": {
+      "shortDescription": "A fullstack e-commerce web application with product management, cart functionality, and full CRUD operations.",
+
+      "longDescription": "Freaky Fashion is a fullstack e-commerce application built with React (Vite + TypeScript) and an Express + SQLite backend. The platform includes both a customer storefront and a dedicated admin panel for structured content management. The project demonstrates full CRUD operations through a RESTful API, persistent relational data storage, and a scalable component architecture. It emphasizes separation of concerns between frontend and backend, structured routing, and maintainable state handling across complex user flows such as search, cart management, and checkout.",
+
+      "sections": {
+        "storefront": "Storefront",
+        "admin": "Admin Panel"
+      },
+
+      "features": {
+        "productListing": "Product listing and detail views",
+        "search": "Search functionality",
+        "favorites": "Favorites system",
+        "cart": "Shopping cart and checkout flow",
+        "responsive": "Responsive layout",
+        "categoryManagement": "Category and product management",
+        "productCrud": "Create, edit, and delete products",
+        "apiCrud": "Full CRUD operations via REST API"
+      },
+
+      "screenshots": {
+        "home": "Homepage with hero section.",
+        "productDetails": "Product detail view with dynamic content rendering.",
+        "favorites": "Favorites page displaying saved products.",
+        "cart": "Shopping cart with quantity updates and product removal functionality.",
+        "checkout": "Responsive checkout flow optimized for mobile devices.",
+        "adminProducts": "Admin product list with search filtering and delete functionality.",
+        "adminCategory": "Admin interface for creating categories and managing products via SKU search.",
+        "adminDetails": "Admin product detail view with publish and unpublish controls."
+      }
+    },
+
+    "levelup": {
+      "shortDescription": "A database-driven web application with role-based access and server-side rendering.",
+
+      "longDescription": "LevelUp is a fullstack web application built with Node.js, Express, EJS, and SQLite. The platform allows users to browse games, write and interact with reviews, and engage with content through a structured server-rendered architecture. The project demonstrates database integration, role-based user management, and dynamic page rendering using EJS templates. It integrates external game data via the RAWG API and combines persistent SQLite storage with modular backend routing and MVC-inspired structure.",
+
+      "role": "Implemented the responsive header and mobile navigation system, ensuring consistent behavior across desktop and mobile devices. Designed and developed the full review details page, structuring dynamic content rendering based on game data. Built a category-based carousel to display related games using conditional logic and external API integration.\n\nDeveloped the client-side voting and comment system with cookie-based state persistence to maintain user interactions across sessions. Implemented conditional UI rendering based on authentication status and user roles (guest, user, admin), ensuring proper permission handling and a clear, intuitive user experience.",
+
+      "features": {
+        "auth": "User authentication system",
+        "roles": "Role-based access (Admin / Regular User)",
+        "reviews": "Game review system",
+        "likes": "Like functionality for reviews",
+        "database": "SQLite database integration",
+        "ssr": "Server-side rendering with EJS",
+        "api": "External API integration (RAWG)",
+        "responsive": "Responsive UI with dynamic content"
+      },
+
+      "workflow": {
+        "scrum": "Scrum-based agile development with sprint planning and daily stand-ups",
+        "backlog": "Backlog management and task tracking in Azure DevOps",
+        "codeReviews": "Collaborative development with code reviews",
+        "git": "Version control using Git and GitHub"
+      },
+
+      "screenshots": {
+        "login": "Login page supporting role-based access for users and administrators.",
+        "home": "Homepage featuring dynamic carousels grouped by game genre.",
+        "homeMobile": "Responsive homepage with genre-based carousels optimized for mobile.",
+        "gameDetails": "Game detail view displaying game information and user reviews.",
+        "reviews": "Review detail page with comment system, voting functionality, and role-based UI styling."
+      }
+    }
+  }
+}

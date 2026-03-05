@@ -1,0 +1,41 @@
+@use '../abstracts' as *;
+
+.btn {
+  display: inline-block;
+  padding: 0.7rem 1.1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+  font: inherit;
+  appearance: none;
+}
+
+.btn--primary {
+  background: $teal;
+  color: white;
+
+  &:hover {
+    background: darken($teal, 8%);
+  }
+}
+
+.btn--secondary {
+  background: $olive;
+  color: white;
+
+  &:hover {
+    background: darken($olive, 8%);
+  }
+}
+
+.btn--secondary-inverted {
+  border: 1px solid $olive;
+  color: $olive;
+
+  &:hover {
+    background: $olive;
+    color: white;
+  }
+}

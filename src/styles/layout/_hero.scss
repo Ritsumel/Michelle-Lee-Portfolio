@@ -1,0 +1,41 @@
+@use '../abstracts' as *;
+
+.hero {
+  text-align: center;
+  padding: 6rem 0;
+
+  &__inner {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+
+  &__eyebrow {
+    display: inline-block;
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: $olive;
+    margin-bottom: $space-sm;
+  }
+
+  &__title {
+    font-size: 3.5rem;
+    margin-bottom: $space-md;
+  }
+
+  &__text {
+    font-size: 1.1rem;
+    margin-bottom: $space-lg;
+  }
+
+  &__buttons {
+    display: flex;
+    justify-content: center;
+    gap: $space-md;
+    flex-wrap: wrap;
+
+    @media (max-width: 900px) {
+        flex-direction: column;
+    }
+  }
+}

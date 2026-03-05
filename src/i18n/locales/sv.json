@@ -1,0 +1,189 @@
+{
+  "nav": {
+    "home": "Hem",
+    "projects": "Projekt",
+    "about": "Om mig",
+    "contact": "Kontakt"
+  },
+
+  "home": {
+    "title": "Fullstackutvecklare",
+    "subtitle": "Jag bygger genomtänkta och skalbara webbapplikationer med moderna tekniker som React och TypeScript.",
+    "viewProjects": "Visa projekt",
+    "contact": "Kontakta mig"
+  },
+
+  "notFound": {
+    "title": "Hoppsan!",
+    "text": "Sidan du letar efter verkar inte finnas.",
+    "home": "← Gå till startsidan",
+    "projects": "Visa projekt →"
+  },
+
+  "projectNotFound": {
+    "title": "Hoppsan!",
+    "text": "Projektet du letar efter verkar inte finnas.",
+    "projects": "← Tillbaka till projekt",
+    "home": "Gå till startsidan →"
+  },
+
+  "about": {
+    "title": "Om mig",
+    "greeting": "Hej, jag heter Michelle.",
+    "photoAlt": "Porträtt av Michelle Lee",
+
+    "intro1": "Jag är en fullstackutvecklare med fokus på att bygga strukturerade och underhållbara webbapplikationer med tydlig separation mellan frontend- och backend-system.",
+
+    "intro2": "Jag tycker om att arbeta med autentiseringsflöden, REST API:er, databasintegration och responsiv UI-arkitektur. Jag värdesätter tydlighet både i kod och design.",
+
+    "connect": "Kontakt",
+
+    "cv": {
+      "download": "Ladda ner CV"
+    },
+
+    "focus": {
+      "title": "Fokusområden",
+
+      "architecture": {
+        "title": "Fullstack-arkitektur",
+        "text": "Strukturerade frontend- och backend-system med tydlig ansvarsfördelning och skalbar projektstruktur."
+      },
+
+      "auth": {
+        "title": "Autentiseringssystem",
+        "text": "JWT-baserad autentisering, skyddade rutter och rollbaserad auktoriseringslogik."
+      },
+
+      "api": {
+        "title": "API- och databasintegration",
+        "text": "RESTful tjänster, persistent relationsdatabas och modulär backend-routing."
+      },
+
+      "ui": {
+        "title": "UI & UX-design",
+        "text": "Användarcentrerade gränssnitt med tydlig visuell hierarki, intuitiva interaktionsmönster och responsiva layouter för olika enheter."
+      }
+    }
+  },
+
+  "contact": {
+    "title": "Kontakta mig",
+    "name": "Namn",
+    "email": "E-post",
+    "message": "Meddelande",
+    "namePlaceholder": "Ditt namn",
+    "emailPlaceholder": "Din e-post",
+    "messagePlaceholder": "Ditt meddelande",
+    "send": "Skicka meddelande",
+    "success": "Meddelandet skickades!",
+    "error": "Något gick fel. Försök igen."
+  },
+
+  "projects": {
+    "viewProject": "Visa projekt",
+    "back": "← Tillbaka till projekt",
+    "about": "📝 Om projektet",
+    "features": "✨ Viktiga funktioner",
+    "role": "👩‍💻 Min roll",
+    "workflow": "🤝 Team & arbetsflöde",
+    "members": "👥 Teammedlemmar",
+    "screenshots": "📸 Skärmbilder",
+    "solo": "Soloprojekt",
+    "group": "Grupprojekt",
+    "developers": "Utvecklare",
+    "liveDemo": "Live Demo",
+    "github": "GitHub",
+    "groupProject": "Grupprojekt | {{count}} utvecklare",
+    "soloProject": "Soloprojekt",
+
+    "bookmate": {
+      "shortDescription": "En fullstack-webbapplikation för att hantera böcker och citat med säker JWT-baserad autentisering.",
+      "longDescription": "Bookmate är en fullstack-webbapplikation byggd med Angular och ASP.NET Core Web API som gör det möjligt för användare att organisera böcker och spara citat i en personlig samling. Applikationen använder JWT-baserad autentisering för att säkert hantera användarsessioner och skydda API-rutter. Projektet demonstrerar RESTful API-integration, strukturerad klient–server-arkitektur och full CRUD-funktionalitet för att skapa, läsa, uppdatera och ta bort både böcker och citat.",
+
+      "features": {
+        "auth": "Användarregistrering och inloggning",
+        "jwt": "JWT-baserad autentisering och skyddade API-rutter",
+        "crud": "CRUD-funktionalitet för böcker och citat",
+        "api": "RESTful API-integration",
+        "theme": "Växling mellan ljust och mörkt tema",
+        "responsive": "Responsiv design"
+      },
+
+      "screenshots": {
+        "login": "Inloggningssida med säker autentisering.",
+        "booksDesktop": "'My Books'-sidan där användare kan lägga till, redigera och ta bort böcker.",
+        "booksMobile": "'My Books'-sidan på mobil, helt responsiv med full CRUD-funktionalitet.",
+        "addQuote": "Formulär för att lägga till nya citat i användarens samling.",
+        "themeToggle": "Växling mellan ljust och mörkt tema med smidig övergång."
+      }
+    },
+
+    "freakyfashion": {
+      "shortDescription": "En fullstack e-handelsapplikation med produkthantering, kundvagnsfunktionalitet och full CRUD-funktionalitet.",
+
+      "longDescription": "Freaky Fashion är en fullstack e-handelsapplikation byggd med React (Vite + TypeScript) och en Express + SQLite-backend. Plattformen innehåller både en kundinriktad butik och en separat adminpanel för strukturerad innehållshantering. Projektet demonstrerar full CRUD-funktionalitet via ett RESTful API, persistenta relationsdata och en skalbar komponentarkitektur. Fokus ligger på tydlig uppdelning mellan frontend och backend, strukturerad routing och hanterbar state-logik genom komplexa användarflöden som sökning, kundvagnshantering och checkout.",
+
+      "sections": {
+        "storefront": "Butik",
+        "admin": "Adminpanel"
+      },
+
+      "features": {
+        "productListing": "Produktlista och detaljvyer",
+        "search": "Sökfunktion",
+        "favorites": "Favoritsystem",
+        "cart": "Kundvagn och checkout-flöde",
+        "responsive": "Responsiv layout",
+        "categoryManagement": "Kategori- och produkthantering",
+        "productCrud": "Skapa, redigera och ta bort produkter",
+        "apiCrud": "Full CRUD-funktionalitet via REST API"
+      },
+
+      "screenshots": {
+        "home": "Startsida med hero-sektion.",
+        "productDetails": "Produktdetaljvy med dynamisk rendering av innehåll.",
+        "favorites": "Favoritsida som visar sparade produkter.",
+        "cart": "Kundvagn med uppdatering av antal och möjlighet att ta bort produkter.",
+        "checkout": "Responsivt checkout-flöde optimerat för mobil.",
+        "adminProducts": "Adminvy med produktlista, sökfiltrering och borttagningsfunktion.",
+        "adminCategory": "Admin-gränssnitt för att skapa kategorier och hantera produkter via SKU-sökning.",
+        "adminDetails": "Adminvy för produktdetaljer med publicerings- och avpubliceringskontroller."
+      }
+    },
+
+    "levelup": {
+      "shortDescription": "En databassdriven webbapplikation med rollbaserad åtkomst och server-side rendering.",
+
+      "longDescription": "LevelUp är en fullstack-webbapplikation byggd med Node.js, Express, EJS och SQLite. Plattformen gör det möjligt för användare att bläddra bland spel, skriva och interagera med recensioner samt engagera sig i innehåll genom en server-renderad arkitektur. Projektet demonstrerar databasintegration, rollbaserad användarhantering och dynamisk sidrendering med EJS-mallar. Det integrerar extern speldata via RAWG API och kombinerar persistent SQLite-lagring med modulär backend-routing och en MVC-inspirerad struktur.",
+
+      "role": "Implementerade den responsiva headern och mobilnavigationssystemet för att säkerställa konsekvent beteende på både desktop och mobil. Designade och utvecklade hela sidan för recensiondetaljer med dynamisk rendering baserad på speldata. Byggde en kategoribaserad karusell för att visa relaterade spel med hjälp av villkorslogik och extern API-integration.\n\nUtvecklade klientsidans röstnings- och kommentarsystem med cookie-baserad state-persistens för att behålla användarinteraktioner mellan sessioner. Implementerade villkorsstyrd UI-rendering baserat på autentiseringsstatus och användarroller (gäst, användare, admin) för korrekt behörighetshantering och en tydlig användarupplevelse.",
+
+      "features": {
+        "auth": "Autentiseringssystem för användare",
+        "roles": "Rollbaserad åtkomst (Admin / Användare)",
+        "reviews": "Recensionssystem för spel",
+        "likes": "Gilla-funktion för recensioner",
+        "database": "SQLite-databasintegration",
+        "ssr": "Server-side rendering med EJS",
+        "api": "Extern API-integration (RAWG)",
+        "responsive": "Responsivt gränssnitt med dynamiskt innehåll"
+      },
+
+      "workflow": {
+        "scrum": "Agil utveckling enligt Scrum med sprintplanering och dagliga stand-ups",
+        "backlog": "Backloghantering och uppgiftsspårning i Azure DevOps",
+        "codeReviews": "Samarbetsbaserad utveckling med kodgranskningar",
+        "git": "Versionshantering med Git och GitHub"
+      },
+
+      "screenshots": {
+        "login": "Inloggningssida med rollbaserad åtkomst för användare och administratörer.",
+        "home": "Startsida med dynamiska karuseller grupperade efter spelgenre.",
+        "homeMobile": "Responsiv startsida med genrebundna karuseller optimerade för mobil.",
+        "gameDetails": "Speldetaljsida som visar spelinformation och användarrecensioner.",
+        "reviews": "Recensionssida med kommentarsystem, röstningsfunktion och rollbaserad UI-styling."
+      }
+    }
+  }
+}
