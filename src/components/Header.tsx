@@ -31,7 +31,7 @@ function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <NavLink to="/">
+        <NavLink to="/" onClick={handleClick}>
           <img src={logo} alt="ML logo" />
         </NavLink>
       </div>

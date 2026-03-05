@@ -291,6 +291,11 @@
     @media (pointer: coarse) {
       cursor: grab;
 
+      &.zoomed {
+        transform: scale(1.8);
+        cursor: zoom-out;
+      }
+
       &:active {
         cursor: grabbing;
       }
