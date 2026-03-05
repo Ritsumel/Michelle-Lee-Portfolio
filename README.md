@@ -8,14 +8,13 @@ The portfolio is fully responsive and supports **multiple languages (English, Sw
 
 ---
 
-# 🚀 Live Website
+## 🚀 Live Website
 
-🔗 **Portfolio:**  
-[Your Netlify/Vercel/GitHub Pages link here]
+🔗 [Portfolio Link](https://michelle-lee-portfolio.netlify.app/)
 
 ---
 
-# ✨ Features
+## ✨ Features
 
 - 🌍 **Multilingual support**
   - English
@@ -38,7 +37,7 @@ The portfolio is fully responsive and supports **multiple languages (English, Sw
 
 ---
 
-# 🖥 Tech Stack
+## 🖥 Tech Stack
 
 | Frontend | Other Tools |
 |--------|--------|
@@ -49,83 +48,30 @@ The portfolio is fully responsive and supports **multiple languages (English, Sw
 
 ---
 
-# 📂 Featured Projects
-
-## 📖 Bookmate
-A fullstack book and quote management application built with **Angular and ASP.NET Core**.
-
-Features include:
-
-- JWT authentication
-- REST API integration
-- CRUD operations for books and quotes
-- Light / Dark mode
-- Responsive design
-
-🔗 Live Demo  
-🔗 GitHub Repository
-
----
-
-## 🛍 Freaky Fashion
-A fullstack e-commerce web application built with **React, Express, and SQLite**.
-
-Features include:
-
-- Product catalog and search
-- Favorites system
-- Shopping cart and checkout flow
-- Admin panel for product management
-- Full CRUD operations through a REST API
-
-🔗 GitHub Repository
-
----
-
-## 🎮 LevelUp
-A database-driven web application built with **Node.js, Express, EJS, and SQLite**.
-
-Features include:
-
-- Role-based authentication
-- Game review system
-- Comment and voting functionality
-- Integration with the RAWG game API
-- Server-side rendering
-
-🔗 GitHub Repository
-
----
-
-# 🌍 Internationalization
-
-The portfolio supports **three languages** using **react-i18next**:
-
-- 🇺🇸 English
-- 🇸🇪 Swedish
-- 🇰🇷 Korean
-
-All project descriptions, UI components, and navigation elements are translated.
-
----
-
-# 📸 Screenshots
+## 📸 Screenshots
 
 ### Home Page
-*(Add screenshot here)*
+![Home](./screenshots/home.png)
 
 ### Projects Page
-*(Add screenshot here)*
+![Projects](./screenshots/projects.png)
 
 ### Project Details
-*(Add screenshot here)*
+![Project Details](./screenshots/project-details.png)
 
 ---
 
-# 🛠 Installation
+## 🛠 Installation
 
 Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/portfolio.git
 cd portfolio
+npm run dev
+```
+Frontend runs on: http://localhost:5173
+
+## 👩‍💻 Author
+
+[Michelle Lee](https://github.com/ritsumel)
