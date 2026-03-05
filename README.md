@@ -1,4 +1,4 @@
-# 🌐 Developer Portfolio
+# 🌐 My Portfolio
 
 This repository contains my personal developer portfolio built with **React, TypeScript, and Vite**.
 
