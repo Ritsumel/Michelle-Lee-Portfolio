@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom'
-import './i18n/i18n'
 import Header from './components/Header'
 import Home from './pages/Home'
 import Projects from './pages/Projects'
@@ -7,12 +6,15 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import ProjectDetails from './pages/ProjectDetails'
 import NotFound from './pages/NotFound'
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
   return (
     <>
       <Header />
       <main>
+        <ScrollToTop />
+
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/projects" element={<Projects />} />

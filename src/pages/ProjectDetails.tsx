@@ -262,7 +262,7 @@ function ProjectDetails() {
               key={activeIndex}
               className="lightbox__image-wrapper"
               drag={isTouchDevice ? "x" : false}
-              dragElastic={isTouchDevice ? 0.35 : 0}
+              dragElastic={isTouchDevice ? 0.6 : 0}
               dragConstraints={isTouchDevice ? { left: 0, right: 0 } : undefined}
               initial={
                 isTouchDevice && slideDirection !== 0
@@ -285,8 +285,8 @@ function ProjectDetails() {
               onDragEnd={
                 isTouchDevice
                   ? (_, info) => {
-                      if (info.offset.x < -120) goNext()
-                      if (info.offset.x > 120) goPrev()
+                      if (info.offset.x < -70) goNext()
+                      if (info.offset.x > 70) goPrev()
                     }
                   : undefined
               }

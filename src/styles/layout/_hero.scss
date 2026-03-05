@@ -3,6 +3,10 @@
 .hero {
   text-align: center;
   padding: 6rem 0;
+  
+  @media (max-width: 900px) {
+    padding: 3rem 0;
+  }
 
   &__inner {
     max-width: 720px;

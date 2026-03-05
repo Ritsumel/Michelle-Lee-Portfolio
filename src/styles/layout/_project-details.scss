@@ -99,6 +99,7 @@
     &__features,
     &__role,
     &__workflow {
+      min-width: 0;
       background: rgba($olive, 0.05);
       padding: 2rem;
       border-radius: 16px;
@@ -248,8 +249,8 @@
 
   &__image-wrapper {
     position: relative;
-    overflow: hidden;
-    touch-action: pan-y;
+    overflow: auto;
+    touch-action: manipulation;
   }
 
   &__image-track {
@@ -280,9 +281,10 @@
   }
 
   &__image {
-    width: 100%;
     max-height: 80vh;
     object-fit: contain;
+    width: auto;
+    max-width: 100%;
     border-radius: 12px;
     cursor: default;
 
