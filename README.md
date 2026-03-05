@@ -1,73 +1,131 @@
-# React + TypeScript + Vite
+# 🌐 Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains my personal developer portfolio built with **React, TypeScript, and Vite**.
 
-Currently, two official plugins are available:
+The site showcases several fullstack and frontend projects, highlights my technical focus areas, and provides an overview of my background and experience in web development.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The portfolio is fully responsive and supports **multiple languages (English, Swedish, and Korean)**.
 
-## React Compiler
+---
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+# 🚀 Live Website
 
-## Expanding the ESLint configuration
+🔗 **Portfolio:**  
+[Your Netlify/Vercel/GitHub Pages link here]
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+# ✨ Features
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- 🌍 **Multilingual support**
+  - English
+  - Swedish
+  - Korean
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 📂 **Project showcase**
+  - Detailed project pages
+  - Screenshots and feature breakdowns
+  - Live demos and GitHub links
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- 📄 **Downloadable CV**
+  - Automatically downloads the CV matching the current site language
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- 📬 **Contact form**
+  - Built with EmailJS for direct messaging
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- 📱 **Responsive design**
+  - Optimized for desktop, tablet, and mobile
+
+---
+
+# 🖥 Tech Stack
+
+| Frontend | Other Tools |
+|--------|--------|
+| React | EmailJS |
+| TypeScript | i18next |
+| Vite | Framer Motion |
+| SCSS | React Router |
+
+---
+
+# 📂 Featured Projects
+
+## 📖 Bookmate
+A fullstack book and quote management application built with **Angular and ASP.NET Core**.
+
+Features include:
+
+- JWT authentication
+- REST API integration
+- CRUD operations for books and quotes
+- Light / Dark mode
+- Responsive design
+
+🔗 Live Demo  
+🔗 GitHub Repository
+
+---
+
+## 🛍 Freaky Fashion
+A fullstack e-commerce web application built with **React, Express, and SQLite**.
+
+Features include:
+
+- Product catalog and search
+- Favorites system
+- Shopping cart and checkout flow
+- Admin panel for product management
+- Full CRUD operations through a REST API
+
+🔗 GitHub Repository
+
+---
+
+## 🎮 LevelUp
+A database-driven web application built with **Node.js, Express, EJS, and SQLite**.
+
+Features include:
+
+- Role-based authentication
+- Game review system
+- Comment and voting functionality
+- Integration with the RAWG game API
+- Server-side rendering
+
+🔗 GitHub Repository
+
+---
+
+# 🌍 Internationalization
+
+The portfolio supports **three languages** using **react-i18next**:
+
+- 🇺🇸 English
+- 🇸🇪 Swedish
+- 🇰🇷 Korean
+
+All project descriptions, UI components, and navigation elements are translated.
+
+---
+
+# 📸 Screenshots
+
+### Home Page
+*(Add screenshot here)*
+
+### Projects Page
+*(Add screenshot here)*
+
+### Project Details
+*(Add screenshot here)*
+
+---
+
+# 🛠 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/portfolio.git
+cd portfolio
